@@ -13,16 +13,13 @@ mongoose.set("strictQuery",true)
 
 
 
-mongoose.connect("mongodb+srv://tarun21:tarun1616@cluster0.h0l8mir.mongodb.net/group6Database",{
+mongoose.connect("mongodb+srv://Nish54321:Nish54321@rajnishcalifornium.qhqnlpb.mongodb.net/shhoppingModel",{
     useNewUrlParser:true
 })
 .then(()=>console.log("mongodb connected"))
 .catch((err)=>console.log(err))
 
 app.use('/',route)
-
-
-
 
 
 app.listen(3000,function(){
